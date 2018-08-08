@@ -80,10 +80,11 @@ class Welcome:
 		self.animatedSpeech.say("It is to ")
 		time.sleep(0.1)
 		self.animatedSpeech.say("^start(animations/Stand/Gestures/Enthusiastic_4)" \
-			" inform ^wait(animations/Stand/Gestures/Enthusiastic_4)")
+			" inform")
 		self.animatedSpeech.say("inspire")
 		time.sleep(0.1)
-		self.animatedSpeech.say("and hopefully cause deep reflection so that we " \
+		self.animatedSpeech.say("and hopefully cause deep reflection " \
+			"^wait(animations/Stand/Gestures/Enthusiastic_4) so that we " \
 			"may be the ^start(animations/Stand/Gestures/ShowSky_1) best we " \
 			"can be for all humanity and the planet. " \
 			"^wait(animations/Stand/Gestures/ShowSky_1)");
